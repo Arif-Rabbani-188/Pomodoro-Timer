@@ -1,1 +1,26 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+</head>
+<body>
+    <div id="container">
+    <div id="tg"><input type="button" value="[  ]" id="toggle"></div>
+    <div class="box" id="pomo"><h1 id="heading">Time to Focus</h1></div>
+    <div class="box" id="timer"><h1 id="pTime">25:00</h1></div>
+    <div class="box">
+        <input type="button" value="-" id="minus">
+        <p id="setTime">25</p>
+        <input type="button" value="+" id="plus">
+    </div>
+    <div class="box">
+        <input type="button" value="Start" id="start">
+        <input type="button" value="Reset" id="reset">
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
